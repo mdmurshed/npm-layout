@@ -1,5 +1,5 @@
 # npm package layout
-    npm i npm-layout
+    git pull https://github.com/mdmurshed/npm-layout.git
 
 # Folder structure
     dist 
