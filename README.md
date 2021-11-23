@@ -1,4 +1,4 @@
-# npm package layout
+# Npm package layout download
     git pull https://github.com/mdmurshed/npm-layout.git
 
 # Folder structure
@@ -15,7 +15,7 @@
     package.json
     Rollup.config.js
 
-# Run you own package
+# Publish your own package
     Step 1: npm i npm-layout
     Step 2: set the component
     Step 3: npm run build-lib
