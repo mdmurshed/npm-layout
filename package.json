@@ -1,11 +1,13 @@
 {
   "name": "@murshed/react-npm-layout",
-  "version": "1.0.9",
+  "version": "1.0.14",
   "description": "This is about the simple layout of the node js npm package",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "bin": "./bin/cli.js",
   "scripts": {
-    "build-lib": "rollup -c"
+    "build-lib": "rollup -c",
+    "postinstall": "npx husky install"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,5 @@
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  },
-  "dependencies": {}
+  }
 }
